@@ -1,2 +1,4 @@
 #!/bin/bash
-echo 'echo "Best School" > \\\*\\\\"'"Best School"'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)'
+cat <<'EOF'
+echo "Best School" > \\\*\\\\"'\"Best School\"'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)
+EOF
