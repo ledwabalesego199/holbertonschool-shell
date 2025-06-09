@@ -1,0 +1,4 @@
+#\!/bin/bash
+# Count directories in PATH (separated by colon)
+echo "$PATH" | tr ':' '
+' | wc -l
